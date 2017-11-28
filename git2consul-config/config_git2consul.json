@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "repos" : [{
+    "name" : "consul_config_example",
+    "url" : "https://github.com/edu-paradigma/consul_config_example.git",
+    "ignore_repo_name" : true,
+    "include_branch_name" : false,
+    "branches" : ["master"],
+    "hooks": [{
+      "type" : "polling",
+      "interval" : "1"
+    }]
+  }]
+}
